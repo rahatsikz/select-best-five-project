@@ -8,6 +8,19 @@ h1 {
   color: #ff5e19;
   font-size: 76px;
 }
-.bg-black {
+.custom-underline {
+  background-image: url(../images/underline.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 108%;
+  padding-bottom: 9px;
+}
+input {
   background-color: #000;
+  border: 1px solid white;
+  width: 50%;
+  color: white;
+}
+.text-orange {
+  color: #ff5e19;
 }
