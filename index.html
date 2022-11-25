@@ -229,18 +229,18 @@
 
                     <h4 class="text-center custom-underline">Budget</h4>
                     <p class="pt-2">
-                      Per Player &nbsp;<input type="text" name="" id="" class="ps-3" />
+                      Per Player &nbsp;<input type="text" name="" id="per-player-cost" class="ps-3" />
                     </p>
-                    <button type="button" class="btn btn-primary px-5">
+                    <button type="button" class="btn btn-primary px-5" id="calculate">
                       Calculate
                     </button>
-                    <p class="pt-4">Player Expenses <span class="ps-3">$</span></p>
-                    <p>Manager&nbsp; <input type="text" name="" id="" class="ps-3" /></p>
-                    <p>Coach &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="" id="" class="ps-3" /></p>
-                    <button type="button" class="btn btn-primary px-5">
+                    <p class="pt-4">Player Expenses <span class="ps-3">$</span><span id="expense"></span></p>
+                    <p>Manager&nbsp; <input type="text" name="" id="manager-cost" class="ps-3" /></p>
+                    <p>Coach &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="" id="coach-cost" class="ps-3" /></p>
+                    <button type="button" class="btn btn-primary px-5" id="total-calculate">
                       Calculate Total
                     </button>
-                    <p class="pt-4">Total <span class="text-orange ps-3">$</span></p>
+                    <p class="pt-4">Total <span class="text-orange ps-3">$</span><span id="total-expense" class="text-orange"></span></p>
                     
                     </div>
                   </div>
@@ -260,5 +260,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- custom js  -->
     <script src="js/playerSelect.js"></script>
+    <script src="js/budget.js"></script>
   </body>
 </html>
