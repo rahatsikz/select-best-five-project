@@ -24,3 +24,6 @@ input {
 .text-orange {
   color: #ff5e19;
 }
+.btn:disabled {
+  background-color: #a2a9af;
+}
